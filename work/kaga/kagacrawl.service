@@ -1,0 +1,9 @@
+[Unit]
+Description=kagacrawl
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/crawl_kaga.sh
+
+[Install]
+WantedBy=multi-user.target
